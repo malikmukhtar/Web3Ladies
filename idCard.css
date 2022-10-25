@@ -1,0 +1,78 @@
+body {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+    /* background-color: red; */
+    height: 450px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.semi {
+    position: relative;
+    top: -10px;
+    left: -10px;
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+    border-radius: 50%;
+}
+#logo{
+    margin-top: 20px;
+}
+
+.logo-container{
+    /* background-color: red; */
+    /* height: 200px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+}
+
+#company-logo {
+    margin-top: -40px;
+}
+
+
+  #logo{
+    height: 70px;
+    width: 70px;
+   
+}
+.passport {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+}
+
+#passport {
+    border-radius: 20px;
+    border: 3px solid purple;
+    height: 100px;
+    width: 120px;
+}
+
+#details > ul > li {
+    list-style: none;
+   text-align: right;
+    /* background-color: red; */
+    margin-right: 150px;
+}
+
+
+.semi2 {
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+    border-radius: 50%;
+}
